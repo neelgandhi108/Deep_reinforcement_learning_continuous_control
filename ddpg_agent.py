@@ -3,7 +3,6 @@ import copy
 from collections import namedtuple, deque
 import random
 from model import Actor, Critic
-
 import torch
 import torch.nn.functional as F
 import torch.optim as optim
