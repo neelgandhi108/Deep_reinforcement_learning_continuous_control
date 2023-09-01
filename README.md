@@ -3,6 +3,15 @@
 
 Author: [Neel Gandhi](http://github.com/neelgandhi108)
 
+The trained agent's performance can be observed in the following animation:
+
+![trained_agent](results/trained_agent.gif)
+
+The most successful outcome was achieved using the DDPG algorithm, where a reward of +30 was reached in a yet-to-be-filled number of episodes. It's crucial to note that finding the right hyperparameters is a complex task, and even slight adjustments can significantly impact results. The reward progression throughout episodes is visualized in the graph below:
+
+![reward_plot](results/scores_plot.png)
+
+
 ## Introduction
 
 In this project, we delve into the fascinating realm of Continuous Control using Reinforcement Learning techniques. The primary environment we're working with is the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment, which offers a complex task where a double-jointed arm needs to move to target locations. Each step where the arm remains in the goal location yields a reward of +0.1, and our mission is to help the agent maximize its rewards by effectively controlling its actions.
