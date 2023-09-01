@@ -57,21 +57,6 @@ After downloading, place the file in the designated directory and unzip it.
 
 For detailed instructions on how to train your agent, refer to the `Continuous_Control_DDPG.ipynb` notebook. This notebook will guide you through the process of training your agent to achieve remarkable control in the Reacher environment.
 
-## (Optional) Challenging the Crawler Environment
-
-Once you've successfully tackled the main project, you might be interested in taking on the more intricate challenge of the **Crawler** environment. This environment involves teaching a four-legged creature to walk forward without falling.
-
-![Crawler][image2]
-
-To tackle this challenging task, you'll need to download the corresponding Unity environment for your operating system:
-
--   Linux: [Download](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Crawler/Crawler_Linux.zip)
--   Mac OSX: [Download](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Crawler/Crawler.app.zip)
--   Windows (32-bit): [Download](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Crawler/Crawler_Windows_x86.zip)
--   Windows (64-bit): [Download](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Crawler/Crawler_Windows_x86_64.zip)
-
-Once again, unzip the file in the designated folder and explore the `Crawler.ipynb` notebook to learn how to control the agent using the Python API.
-
 ## Concluding Thoughts
 
 With the foundation laid in this project, we have explored the realm of Continuous Control in Reinforcement Learning. By mastering the control of agents in complex environments, we are equipped to tackle a wide range of challenges that demand precise and continuous actions.
